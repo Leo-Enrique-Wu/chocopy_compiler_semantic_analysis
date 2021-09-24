@@ -1,0 +1,23 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 1, 2 ],
+  "declarations" : [ ],
+  "statements" : [ {
+    "kind" : "ExprStmt",
+    "location" : [ 1, 1, 1, 1 ],
+    "expr" : {
+      "kind" : "IntegerLiteral",
+      "location" : [ 1, 1, 1, 1 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "int"
+      },
+      "value" : 1
+    }
+  } ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

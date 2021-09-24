@@ -1,0 +1,80 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 4, 2 ],
+  "declarations" : [ {
+    "kind" : "ClassDef",
+    "location" : [ 1, 1, 4, 1 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 7, 1, 9 ],
+      "name" : "bar"
+    },
+    "superClass" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 11, 1, 16 ],
+      "name" : "object"
+    },
+    "declarations" : [ {
+      "kind" : "FuncDef",
+      "location" : [ 2, 5, 3, 17 ],
+      "name" : {
+        "kind" : "Identifier",
+        "location" : [ 2, 9, 2, 16 ],
+        "errorMsg" : "Method overridden with different type signature: __init__",
+        "name" : "__init__"
+      },
+      "params" : [ {
+        "kind" : "TypedVar",
+        "location" : [ 2, 18, 2, 25 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 2, 18, 2, 21 ],
+          "name" : "self"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 2, 23, 2, 25 ],
+          "className" : "bar"
+        }
+      }, {
+        "kind" : "TypedVar",
+        "location" : [ 2, 28, 2, 32 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 2, 28, 2, 28 ],
+          "name" : "x"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 2, 30, 2, 32 ],
+          "className" : "int"
+        }
+      } ],
+      "returnType" : {
+        "kind" : "ClassType",
+        "location" : [ 2, 37, 2, 39 ],
+        "className" : "int"
+      },
+      "declarations" : [ ],
+      "statements" : [ {
+        "kind" : "ReturnStmt",
+        "location" : [ 3, 9, 3, 16 ],
+        "value" : {
+          "kind" : "IntegerLiteral",
+          "location" : [ 3, 16, 3, 16 ],
+          "value" : 0
+        }
+      } ]
+    } ]
+  } ],
+  "statements" : [ ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 2, 9, 2, 16 ],
+      "message" : "Method overridden with different type signature: __init__"
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

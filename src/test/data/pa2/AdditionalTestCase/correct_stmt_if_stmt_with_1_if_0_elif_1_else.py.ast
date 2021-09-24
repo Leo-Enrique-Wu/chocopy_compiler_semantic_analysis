@@ -1,0 +1,52 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 5, 1 ],
+  "declarations" : [ ],
+  "statements" : [ {
+    "kind" : "IfStmt",
+    "location" : [ 1, 1, 5, 1 ],
+    "condition" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 1, 4, 1, 8 ],
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 4, 1, 4 ],
+        "name" : "x"
+      },
+      "operator" : ">",
+      "right" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 1, 8, 1, 8 ],
+        "value" : 1
+      }
+    },
+    "thenBody" : [ {
+      "kind" : "AssignStmt",
+      "location" : [ 2, 2, 2, 6 ],
+      "targets" : [ {
+        "kind" : "Identifier",
+        "location" : [ 2, 2, 2, 2 ],
+        "name" : "y"
+      } ],
+      "value" : {
+        "kind" : "Identifier",
+        "location" : [ 2, 6, 2, 6 ],
+        "name" : "x"
+      }
+    } ],
+    "elseBody" : [ {
+      "kind" : "ExprStmt",
+      "location" : [ 4, 2, 4, 2 ],
+      "expr" : {
+        "kind" : "Identifier",
+        "location" : [ 4, 2, 4, 2 ],
+        "name" : "x"
+      }
+    } ]
+  } ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

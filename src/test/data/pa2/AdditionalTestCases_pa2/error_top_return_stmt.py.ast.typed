@@ -1,0 +1,24 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 1, 9 ],
+  "declarations" : [ ],
+  "statements" : [ {
+    "kind" : "ReturnStmt",
+    "location" : [ 1, 1, 1, 8 ],
+    "errorMsg" : "Return statement cannot appear at the top level",
+    "value" : {
+      "kind" : "IntegerLiteral",
+      "location" : [ 1, 8, 1, 8 ],
+      "value" : 1
+    }
+  } ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 1, 1, 1, 8 ],
+      "message" : "Return statement cannot appear at the top level"
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

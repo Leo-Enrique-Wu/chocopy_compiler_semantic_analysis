@@ -1,0 +1,101 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 7, 3 ],
+  "declarations" : [ {
+    "kind" : "FuncDef",
+    "location" : [ 1, 1, 7, 2 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 5, 1, 18 ],
+      "errorMsg" : "All paths in this function/method must have a return statement: badReturnCover",
+      "name" : "badReturnCover"
+    },
+    "params" : [ {
+      "kind" : "TypedVar",
+      "location" : [ 1, 20, 1, 24 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 20, 1, 20 ],
+        "name" : "x"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 1, 22, 1, 24 ],
+        "className" : "int"
+      }
+    } ],
+    "returnType" : {
+      "kind" : "ClassType",
+      "location" : [ 1, 30, 1, 32 ],
+      "className" : "str"
+    },
+    "declarations" : [ ],
+    "statements" : [ {
+      "kind" : "IfStmt",
+      "location" : [ 2, 5, 7, 2 ],
+      "condition" : {
+        "kind" : "BinaryExpr",
+        "location" : [ 2, 8, 2, 10 ],
+        "left" : {
+          "kind" : "Identifier",
+          "location" : [ 2, 8, 2, 8 ],
+          "name" : "x"
+        },
+        "operator" : ">",
+        "right" : {
+          "kind" : "IntegerLiteral",
+          "location" : [ 2, 10, 2, 10 ],
+          "value" : 0
+        }
+      },
+      "thenBody" : [ {
+        "kind" : "ReturnStmt",
+        "location" : [ 3, 9, 3, 22 ],
+        "value" : {
+          "kind" : "StringLiteral",
+          "location" : [ 3, 16, 3, 22 ],
+          "value" : "apple"
+        }
+      } ],
+      "elseBody" : [ {
+        "kind" : "IfStmt",
+        "location" : [ 5, 9, 7, 1 ],
+        "condition" : {
+          "kind" : "BinaryExpr",
+          "location" : [ 5, 12, 5, 15 ],
+          "left" : {
+            "kind" : "Identifier",
+            "location" : [ 5, 12, 5, 12 ],
+            "name" : "x"
+          },
+          "operator" : "==",
+          "right" : {
+            "kind" : "IntegerLiteral",
+            "location" : [ 5, 15, 5, 15 ],
+            "value" : 0
+          }
+        },
+        "thenBody" : [ {
+          "kind" : "ReturnStmt",
+          "location" : [ 6, 13, 6, 25 ],
+          "value" : {
+            "kind" : "StringLiteral",
+            "location" : [ 6, 20, 6, 25 ],
+            "value" : "ball"
+          }
+        } ],
+        "elseBody" : [ ]
+      } ]
+    } ]
+  } ],
+  "statements" : [ ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 1, 5, 1, 18 ],
+      "message" : "All paths in this function/method must have a return statement: badReturnCover"
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

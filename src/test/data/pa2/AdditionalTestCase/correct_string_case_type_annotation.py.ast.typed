@@ -1,0 +1,53 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 3, 1 ],
+  "declarations" : [ {
+    "kind" : "FuncDef",
+    "location" : [ 1, 1, 2, 3 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 5, 1, 7 ],
+      "name" : "foo"
+    },
+    "params" : [ {
+      "kind" : "TypedVar",
+      "location" : [ 1, 9, 1, 15 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 9, 1, 9 ],
+        "name" : "x"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 1, 11, 1, 15 ],
+        "errorMsg" : "Invalid type annotation; there is no class named: Qoo",
+        "className" : "Qoo"
+      }
+    } ],
+    "returnType" : {
+      "kind" : "ClassType",
+      "location" : [ 1, 17, 1, 17 ],
+      "className" : "<None>"
+    },
+    "declarations" : [ ],
+    "statements" : [ {
+      "kind" : "ExprStmt",
+      "location" : [ 2, 2, 2, 2 ],
+      "expr" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 2, 2, 2, 2 ],
+        "value" : 1
+      }
+    } ]
+  } ],
+  "statements" : [ ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 1, 11, 1, 15 ],
+      "message" : "Invalid type annotation; there is no class named: Qoo"
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 1, 19 ],
+  "declarations" : [ ],
+  "statements" : [ {
+    "kind" : "AssignStmt",
+    "location" : [ 1, 1, 1, 18 ],
+    "targets" : [ {
+      "kind" : "Identifier",
+      "location" : [ 1, 1, 1, 1 ],
+      "name" : "x"
+    }, {
+      "kind" : "MemberExpr",
+      "location" : [ 1, 5, 1, 7 ],
+      "object" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 5, 1, 5 ],
+        "name" : "y"
+      },
+      "member" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 7, 1, 7 ],
+        "name" : "f"
+      }
+    }, {
+      "kind" : "IndexExpr",
+      "location" : [ 1, 11, 1, 14 ],
+      "list" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 11, 1, 11 ],
+        "name" : "z"
+      },
+      "index" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 1, 13, 1, 13 ],
+        "value" : 0
+      }
+    } ],
+    "value" : {
+      "kind" : "IntegerLiteral",
+      "location" : [ 1, 18, 1, 18 ],
+      "value" : 1
+    }
+  } ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

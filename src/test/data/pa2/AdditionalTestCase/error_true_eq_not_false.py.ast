@@ -1,0 +1,29 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 9, 1, 18 ],
+  "declarations" : [ ],
+  "statements" : [ {
+    "kind" : "ExprStmt",
+    "location" : [ 1, 9, 1, 17 ],
+    "expr" : {
+      "kind" : "UnaryExpr",
+      "location" : [ 1, 9, 1, 17 ],
+      "operator" : "not",
+      "operand" : {
+        "kind" : "BooleanLiteral",
+        "location" : [ 1, 13, 1, 17 ],
+        "value" : false
+      }
+    }
+  } ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 1, 9, 1, 11 ],
+      "message" : "Parse error near token NOT: not",
+      "syntax" : true
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

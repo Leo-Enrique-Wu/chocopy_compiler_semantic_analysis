@@ -1,0 +1,184 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 12, 4 ],
+  "declarations" : [ {
+    "kind" : "FuncDef",
+    "location" : [ 1, 1, 12, 3 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 5, 1, 19 ],
+      "name" : "goodReturnCover"
+    },
+    "params" : [ {
+      "kind" : "TypedVar",
+      "location" : [ 1, 21, 1, 25 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 21, 1, 21 ],
+        "name" : "x"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 1, 23, 1, 25 ],
+        "className" : "int"
+      }
+    } ],
+    "returnType" : {
+      "kind" : "ClassType",
+      "location" : [ 1, 31, 1, 33 ],
+      "className" : "int"
+    },
+    "declarations" : [ ],
+    "statements" : [ {
+      "kind" : "IfStmt",
+      "location" : [ 2, 5, 12, 3 ],
+      "condition" : {
+        "kind" : "BinaryExpr",
+        "location" : [ 2, 8, 2, 10 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bool"
+        },
+        "left" : {
+          "kind" : "Identifier",
+          "location" : [ 2, 8, 2, 8 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "int"
+          },
+          "name" : "x"
+        },
+        "operator" : ">",
+        "right" : {
+          "kind" : "IntegerLiteral",
+          "location" : [ 2, 10, 2, 10 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "int"
+          },
+          "value" : 0
+        }
+      },
+      "thenBody" : [ {
+        "kind" : "ReturnStmt",
+        "location" : [ 3, 9, 3, 16 ],
+        "value" : {
+          "kind" : "IntegerLiteral",
+          "location" : [ 3, 16, 3, 16 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "int"
+          },
+          "value" : 0
+        }
+      } ],
+      "elseBody" : [ {
+        "kind" : "IfStmt",
+        "location" : [ 5, 9, 12, 2 ],
+        "condition" : {
+          "kind" : "BinaryExpr",
+          "location" : [ 5, 12, 5, 15 ],
+          "inferredType" : {
+            "kind" : "ClassValueType",
+            "className" : "bool"
+          },
+          "left" : {
+            "kind" : "Identifier",
+            "location" : [ 5, 12, 5, 12 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "int"
+            },
+            "name" : "x"
+          },
+          "operator" : "==",
+          "right" : {
+            "kind" : "IntegerLiteral",
+            "location" : [ 5, 15, 5, 15 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "int"
+            },
+            "value" : 0
+          }
+        },
+        "thenBody" : [ {
+          "kind" : "ReturnStmt",
+          "location" : [ 6, 13, 6, 20 ],
+          "value" : {
+            "kind" : "IntegerLiteral",
+            "location" : [ 6, 20, 6, 20 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "int"
+            },
+            "value" : 0
+          }
+        } ],
+        "elseBody" : [ {
+          "kind" : "IfStmt",
+          "location" : [ 8, 13, 12, 1 ],
+          "condition" : {
+            "kind" : "BinaryExpr",
+            "location" : [ 8, 16, 8, 18 ],
+            "inferredType" : {
+              "kind" : "ClassValueType",
+              "className" : "bool"
+            },
+            "left" : {
+              "kind" : "Identifier",
+              "location" : [ 8, 16, 8, 16 ],
+              "inferredType" : {
+                "kind" : "ClassValueType",
+                "className" : "int"
+              },
+              "name" : "x"
+            },
+            "operator" : "<",
+            "right" : {
+              "kind" : "IntegerLiteral",
+              "location" : [ 8, 18, 8, 18 ],
+              "inferredType" : {
+                "kind" : "ClassValueType",
+                "className" : "int"
+              },
+              "value" : 0
+            }
+          },
+          "thenBody" : [ {
+            "kind" : "ReturnStmt",
+            "location" : [ 9, 17, 9, 24 ],
+            "value" : {
+              "kind" : "IntegerLiteral",
+              "location" : [ 9, 24, 9, 24 ],
+              "inferredType" : {
+                "kind" : "ClassValueType",
+                "className" : "int"
+              },
+              "value" : 1
+            }
+          } ],
+          "elseBody" : [ {
+            "kind" : "ReturnStmt",
+            "location" : [ 11, 17, 11, 24 ],
+            "value" : {
+              "kind" : "IntegerLiteral",
+              "location" : [ 11, 24, 11, 24 ],
+              "inferredType" : {
+                "kind" : "ClassValueType",
+                "className" : "int"
+              },
+              "value" : 0
+            }
+          } ]
+        } ]
+      } ]
+    } ]
+  } ],
+  "statements" : [ ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

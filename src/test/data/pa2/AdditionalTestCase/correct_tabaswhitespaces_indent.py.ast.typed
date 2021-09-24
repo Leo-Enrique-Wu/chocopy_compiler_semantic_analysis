@@ -1,0 +1,105 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 4, 1 ],
+  "declarations" : [ ],
+  "statements" : [ {
+    "kind" : "IfStmt",
+    "location" : [ 1, 1, 4, 1 ],
+    "condition" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 1, 4, 1, 8 ],
+      "errorMsg" : "Cannot apply operator `>` on types `object` and `int`",
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 1, 4, 1, 4 ],
+        "errorMsg" : "Not a variable: a",
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "object"
+        },
+        "name" : "a"
+      },
+      "operator" : ">",
+      "right" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 1, 8, 1, 8 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "value" : 2
+      }
+    },
+    "thenBody" : [ {
+      "kind" : "AssignStmt",
+      "location" : [ 2, 9, 2, 13 ],
+      "targets" : [ {
+        "kind" : "Identifier",
+        "location" : [ 2, 9, 2, 9 ],
+        "errorMsg" : "Not a variable: x",
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "object"
+        },
+        "name" : "x"
+      } ],
+      "value" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 2, 13, 2, 13 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "value" : 2
+      }
+    }, {
+      "kind" : "AssignStmt",
+      "location" : [ 3, 4, 3, 8 ],
+      "targets" : [ {
+        "kind" : "Identifier",
+        "location" : [ 3, 4, 3, 4 ],
+        "errorMsg" : "Not a variable: y",
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "object"
+        },
+        "name" : "y"
+      } ],
+      "value" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 3, 8, 3, 8 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "value" : 3
+      }
+    } ],
+    "elseBody" : [ ]
+  } ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 1, 4, 1, 4 ],
+      "message" : "Not a variable: a"
+    }, {
+      "kind" : "CompilerError",
+      "location" : [ 1, 4, 1, 8 ],
+      "message" : "Cannot apply operator `>` on types `object` and `int`"
+    }, {
+      "kind" : "CompilerError",
+      "location" : [ 2, 9, 2, 9 ],
+      "message" : "Not a variable: x"
+    }, {
+      "kind" : "CompilerError",
+      "location" : [ 3, 4, 3, 4 ],
+      "message" : "Not a variable: y"
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

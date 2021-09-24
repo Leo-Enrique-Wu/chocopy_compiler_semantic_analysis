@@ -1,0 +1,24 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 1, 16 ],
+  "declarations" : [ ],
+  "statements" : [ {
+    "kind" : "AssignStmt",
+    "location" : [ 1, 1, 1, 15 ],
+    "targets" : [ {
+      "kind" : "Identifier",
+      "location" : [ 1, 1, 1, 1 ],
+      "name" : "x"
+    } ],
+    "value" : {
+      "kind" : "StringLiteral",
+      "location" : [ 1, 5, 1, 15 ],
+      "value" : "He\"ll\"o"
+    }
+  } ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

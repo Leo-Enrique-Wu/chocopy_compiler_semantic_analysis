@@ -1,0 +1,776 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 37, 9 ],
+  "declarations" : [ {
+    "kind" : "ClassDef",
+    "location" : [ 1, 1, 2, 19 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 7, 1, 9 ],
+      "name" : "bar"
+    },
+    "superClass" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 11, 1, 16 ],
+      "name" : "object"
+    },
+    "declarations" : [ {
+      "kind" : "VarDef",
+      "location" : [ 2, 5, 2, 18 ],
+      "var" : {
+        "kind" : "TypedVar",
+        "location" : [ 2, 5, 2, 11 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 2, 5, 2, 5 ],
+          "name" : "p"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 2, 8, 2, 11 ],
+          "className" : "bool"
+        }
+      },
+      "value" : {
+        "kind" : "BooleanLiteral",
+        "location" : [ 2, 15, 2, 18 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bool"
+        },
+        "value" : true
+      }
+    } ]
+  }, {
+    "kind" : "ClassDef",
+    "location" : [ 3, 1, 4, 15 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 3, 7, 3, 9 ],
+      "name" : "foo"
+    },
+    "superClass" : {
+      "kind" : "Identifier",
+      "location" : [ 3, 11, 3, 13 ],
+      "name" : "bar"
+    },
+    "declarations" : [ {
+      "kind" : "VarDef",
+      "location" : [ 4, 5, 4, 14 ],
+      "var" : {
+        "kind" : "TypedVar",
+        "location" : [ 4, 5, 4, 10 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 4, 5, 4, 5 ],
+          "name" : "f"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 4, 8, 4, 10 ],
+          "className" : "int"
+        }
+      },
+      "value" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 4, 14, 4, 14 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "value" : 0
+      }
+    } ]
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 6, 1, 6, 10 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 6, 1, 6, 6 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 6, 1, 6, 2 ],
+        "name" : "x1"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 6, 4, 6, 6 ],
+        "className" : "int"
+      }
+    },
+    "value" : {
+      "kind" : "IntegerLiteral",
+      "location" : [ 6, 10, 6, 10 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "int"
+      },
+      "value" : 0
+    }
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 7, 1, 7, 10 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 7, 1, 7, 6 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 7, 1, 7, 2 ],
+        "name" : "x2"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 7, 4, 7, 6 ],
+        "className" : "int"
+      }
+    },
+    "value" : {
+      "kind" : "IntegerLiteral",
+      "location" : [ 7, 10, 7, 10 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "int"
+      },
+      "value" : 0
+    }
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 8, 1, 8, 14 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 8, 1, 8, 7 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 8, 1, 8, 2 ],
+        "name" : "y1"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 8, 4, 8, 7 ],
+        "className" : "bool"
+      }
+    },
+    "value" : {
+      "kind" : "BooleanLiteral",
+      "location" : [ 8, 11, 8, 14 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "value" : true
+    }
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 9, 1, 9, 15 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 9, 1, 9, 7 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 9, 1, 9, 2 ],
+        "name" : "y2"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 9, 4, 9, 7 ],
+        "className" : "bool"
+      }
+    },
+    "value" : {
+      "kind" : "BooleanLiteral",
+      "location" : [ 9, 11, 9, 15 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "value" : false
+    }
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 10, 1, 10, 16 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 10, 1, 10, 6 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 10, 1, 10, 2 ],
+        "name" : "z1"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 10, 4, 10, 6 ],
+        "className" : "str"
+      }
+    },
+    "value" : {
+      "kind" : "StringLiteral",
+      "location" : [ 10, 10, 10, 16 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "str"
+      },
+      "value" : "apple"
+    }
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 11, 1, 11, 17 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 11, 1, 11, 6 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 11, 1, 11, 2 ],
+        "name" : "z2"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 11, 4, 11, 6 ],
+        "className" : "str"
+      }
+    },
+    "value" : {
+      "kind" : "StringLiteral",
+      "location" : [ 11, 10, 11, 17 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "str"
+      },
+      "value" : "banana"
+    }
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 12, 1, 12, 15 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 12, 1, 12, 8 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 12, 1, 12, 2 ],
+        "name" : "m1"
+      },
+      "type" : {
+        "kind" : "ListType",
+        "location" : [ 12, 4, 12, 8 ],
+        "elementType" : {
+          "kind" : "ClassType",
+          "location" : [ 12, 5, 12, 7 ],
+          "className" : "int"
+        }
+      }
+    },
+    "value" : {
+      "kind" : "NoneLiteral",
+      "location" : [ 12, 12, 12, 15 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "<None>"
+      }
+    }
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 13, 1, 13, 15 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 13, 1, 13, 8 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 13, 1, 13, 2 ],
+        "name" : "m2"
+      },
+      "type" : {
+        "kind" : "ListType",
+        "location" : [ 13, 4, 13, 8 ],
+        "elementType" : {
+          "kind" : "ClassType",
+          "location" : [ 13, 5, 13, 7 ],
+          "className" : "int"
+        }
+      }
+    },
+    "value" : {
+      "kind" : "NoneLiteral",
+      "location" : [ 13, 12, 13, 15 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "<None>"
+      }
+    }
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 14, 1, 14, 13 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 14, 1, 14, 6 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 14, 1, 14, 2 ],
+        "name" : "n1"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 14, 4, 14, 6 ],
+        "className" : "bar"
+      }
+    },
+    "value" : {
+      "kind" : "NoneLiteral",
+      "location" : [ 14, 10, 14, 13 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "<None>"
+      }
+    }
+  }, {
+    "kind" : "VarDef",
+    "location" : [ 15, 1, 15, 13 ],
+    "var" : {
+      "kind" : "TypedVar",
+      "location" : [ 15, 1, 15, 6 ],
+      "identifier" : {
+        "kind" : "Identifier",
+        "location" : [ 15, 1, 15, 2 ],
+        "name" : "n2"
+      },
+      "type" : {
+        "kind" : "ClassType",
+        "location" : [ 15, 4, 15, 6 ],
+        "className" : "foo"
+      }
+    },
+    "value" : {
+      "kind" : "NoneLiteral",
+      "location" : [ 15, 10, 15, 13 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "<None>"
+      }
+    }
+  } ],
+  "statements" : [ {
+    "kind" : "ExprStmt",
+    "location" : [ 18, 1, 18, 6 ],
+    "expr" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 18, 1, 18, 6 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 18, 1, 18, 2 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "name" : "x1"
+      },
+      "operator" : "==",
+      "right" : {
+        "kind" : "Identifier",
+        "location" : [ 18, 5, 18, 6 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "name" : "x2"
+      }
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 19, 1, 19, 6 ],
+    "expr" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 19, 1, 19, 6 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 19, 1, 19, 2 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bool"
+        },
+        "name" : "y1"
+      },
+      "operator" : "==",
+      "right" : {
+        "kind" : "Identifier",
+        "location" : [ 19, 5, 19, 6 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bool"
+        },
+        "name" : "y2"
+      }
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 20, 1, 20, 6 ],
+    "expr" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 20, 1, 20, 6 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 20, 1, 20, 2 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "str"
+        },
+        "name" : "z1"
+      },
+      "operator" : "==",
+      "right" : {
+        "kind" : "Identifier",
+        "location" : [ 20, 5, 20, 6 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "str"
+        },
+        "name" : "z2"
+      }
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 23, 1, 23, 6 ],
+    "expr" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 23, 1, 23, 6 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 23, 1, 23, 2 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "name" : "x1"
+      },
+      "operator" : "!=",
+      "right" : {
+        "kind" : "Identifier",
+        "location" : [ 23, 5, 23, 6 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "name" : "x2"
+      }
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 24, 1, 24, 6 ],
+    "expr" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 24, 1, 24, 6 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 24, 1, 24, 2 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bool"
+        },
+        "name" : "y1"
+      },
+      "operator" : "!=",
+      "right" : {
+        "kind" : "Identifier",
+        "location" : [ 24, 5, 24, 6 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bool"
+        },
+        "name" : "y2"
+      }
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 25, 1, 25, 6 ],
+    "expr" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 25, 1, 25, 6 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 25, 1, 25, 2 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "str"
+        },
+        "name" : "z1"
+      },
+      "operator" : "!=",
+      "right" : {
+        "kind" : "Identifier",
+        "location" : [ 25, 5, 25, 6 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "str"
+        },
+        "name" : "z2"
+      }
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 28, 1, 28, 8 ],
+    "expr" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 28, 1, 28, 8 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 28, 1, 28, 2 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "name" : "x1"
+      },
+      "operator" : "<",
+      "right" : {
+        "kind" : "Identifier",
+        "location" : [ 28, 7, 28, 8 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "name" : "x2"
+      }
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 29, 1, 29, 8 ],
+    "expr" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 29, 1, 29, 8 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 29, 1, 29, 2 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "name" : "x1"
+      },
+      "operator" : "<=",
+      "right" : {
+        "kind" : "Identifier",
+        "location" : [ 29, 7, 29, 8 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "name" : "x2"
+      }
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 30, 1, 30, 8 ],
+    "expr" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 30, 1, 30, 8 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 30, 1, 30, 2 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "name" : "x1"
+      },
+      "operator" : ">",
+      "right" : {
+        "kind" : "Identifier",
+        "location" : [ 30, 7, 30, 8 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "name" : "x2"
+      }
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 31, 1, 31, 8 ],
+    "expr" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 31, 1, 31, 8 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 31, 1, 31, 2 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "name" : "x1"
+      },
+      "operator" : ">=",
+      "right" : {
+        "kind" : "Identifier",
+        "location" : [ 31, 7, 31, 8 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        },
+        "name" : "x2"
+      }
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 34, 1, 34, 12 ],
+    "expr" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 34, 1, 34, 12 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "NoneLiteral",
+        "location" : [ 34, 1, 34, 4 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "<None>"
+        }
+      },
+      "operator" : "is",
+      "right" : {
+        "kind" : "NoneLiteral",
+        "location" : [ 34, 9, 34, 12 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "<None>"
+        }
+      }
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 35, 1, 35, 8 ],
+    "expr" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 35, 1, 35, 8 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 35, 1, 35, 2 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "foo"
+        },
+        "name" : "n2"
+      },
+      "operator" : "is",
+      "right" : {
+        "kind" : "Identifier",
+        "location" : [ 35, 7, 35, 8 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "foo"
+        },
+        "name" : "n2"
+      }
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 36, 1, 36, 8 ],
+    "expr" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 36, 1, 36, 8 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 36, 1, 36, 2 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "foo"
+        },
+        "name" : "n2"
+      },
+      "operator" : "is",
+      "right" : {
+        "kind" : "Identifier",
+        "location" : [ 36, 7, 36, 8 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bar"
+        },
+        "name" : "n1"
+      }
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 37, 1, 37, 8 ],
+    "expr" : {
+      "kind" : "BinaryExpr",
+      "location" : [ 37, 1, 37, 8 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      },
+      "left" : {
+        "kind" : "Identifier",
+        "location" : [ 37, 1, 37, 2 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bar"
+        },
+        "name" : "n1"
+      },
+      "operator" : "is",
+      "right" : {
+        "kind" : "Identifier",
+        "location" : [ 37, 7, 37, 8 ],
+        "inferredType" : {
+          "kind" : "ListValueType",
+          "elementType" : {
+            "kind" : "ClassValueType",
+            "className" : "int"
+          }
+        },
+        "name" : "m2"
+      }
+    }
+  } ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

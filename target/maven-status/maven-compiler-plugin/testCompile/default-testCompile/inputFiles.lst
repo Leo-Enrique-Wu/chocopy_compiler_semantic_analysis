@@ -1,0 +1,13 @@
+/Users/Leo/Resource/GitHub/pa2-chocopy-semantic-analysis-shw/src/test/java/typerule/FunctionDefTypeRuleTest.java
+/Users/Leo/Resource/GitHub/pa2-chocopy-semantic-analysis-shw/src/test/java/typerule/BasicTypeRuleTest.java
+/Users/Leo/Resource/GitHub/pa2-chocopy-semantic-analysis-shw/src/test/java/typerule/WhileStmtTypeRuleTest.java
+/Users/Leo/Resource/GitHub/pa2-chocopy-semantic-analysis-shw/src/test/java/typerule/LiteralsTypeRuleTest.java
+/Users/Leo/Resource/GitHub/pa2-chocopy-semantic-analysis-shw/src/test/java/typerule/ArithmeticOpTypeRuleTest.java
+/Users/Leo/Resource/GitHub/pa2-chocopy-semantic-analysis-shw/src/test/java/chocopy/pa2/CommonUtilTest.java
+/Users/Leo/Resource/GitHub/pa2-chocopy-semantic-analysis-shw/src/test/java/typerule/StringOpTypeRuleTest.java
+/Users/Leo/Resource/GitHub/pa2-chocopy-semantic-analysis-shw/src/test/java/typerule/ClassDefTypeRuleTest.java
+/Users/Leo/Resource/GitHub/pa2-chocopy-semantic-analysis-shw/src/test/java/typerule/ConditionalExprTypeRuleTest.java
+/Users/Leo/Resource/GitHub/pa2-chocopy-semantic-analysis-shw/src/test/java/typerule/ConsitionalStmtTypeTuleTest.java
+/Users/Leo/Resource/GitHub/pa2-chocopy-semantic-analysis-shw/src/test/java/util/NodeGenerator.java
+/Users/Leo/Resource/GitHub/pa2-chocopy-semantic-analysis-shw/src/test/java/typerule/ForStmtTypeRuleTest.java
+/Users/Leo/Resource/GitHub/pa2-chocopy-semantic-analysis-shw/src/test/java/typerule/SwitchSymbolTableTest.java

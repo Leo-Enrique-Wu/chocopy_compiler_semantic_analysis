@@ -1,0 +1,21 @@
+{
+  "kind" : "Program",
+  "location" : [ 0, 0, 0, 0 ],
+  "declarations" : [ ],
+  "statements" : [ ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 6, 1, 6, 2 ],
+      "message" : "Parse error near token UNRECOGNIZED: <bad indentation>",
+      "syntax" : true
+    }, {
+      "kind" : "CompilerError",
+      "location" : [ 7, 2, 7, 1 ],
+      "message" : "Parse error near token EOF: ",
+      "syntax" : true
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

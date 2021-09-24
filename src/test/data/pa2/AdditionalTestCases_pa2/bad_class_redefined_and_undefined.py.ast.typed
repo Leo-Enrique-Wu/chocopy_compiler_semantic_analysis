@@ -1,0 +1,178 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 11, 1 ],
+  "declarations" : [ {
+    "kind" : "ClassDef",
+    "location" : [ 1, 1, 2, 14 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 7, 1, 7 ],
+      "name" : "A"
+    },
+    "superClass" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 9, 1, 14 ],
+      "name" : "object"
+    },
+    "declarations" : [ {
+      "kind" : "VarDef",
+      "location" : [ 2, 5, 2, 13 ],
+      "var" : {
+        "kind" : "TypedVar",
+        "location" : [ 2, 5, 2, 9 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 2, 5, 2, 5 ],
+          "name" : "a"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 2, 7, 2, 9 ],
+          "className" : "int"
+        }
+      },
+      "value" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 2, 13, 2, 13 ],
+        "value" : 1
+      }
+    } ]
+  }, {
+    "kind" : "ClassDef",
+    "location" : [ 4, 1, 6, 14 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 4, 7, 4, 7 ],
+      "errorMsg" : "Duplicate declaration of identifier in same scope: A",
+      "name" : "A"
+    },
+    "superClass" : {
+      "kind" : "Identifier",
+      "location" : [ 4, 9, 4, 9 ],
+      "errorMsg" : "Super-class not defined: B",
+      "name" : "B"
+    },
+    "declarations" : [ {
+      "kind" : "VarDef",
+      "location" : [ 5, 5, 5, 13 ],
+      "var" : {
+        "kind" : "TypedVar",
+        "location" : [ 5, 5, 5, 9 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 5, 5, 5, 5 ],
+          "name" : "a"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 5, 7, 5, 9 ],
+          "className" : "int"
+        }
+      },
+      "value" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 5, 13, 5, 13 ],
+        "value" : 1
+      }
+    }, {
+      "kind" : "VarDef",
+      "location" : [ 6, 5, 6, 13 ],
+      "var" : {
+        "kind" : "TypedVar",
+        "location" : [ 6, 5, 6, 9 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 6, 5, 6, 5 ],
+          "name" : "b"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 6, 7, 6, 9 ],
+          "className" : "int"
+        }
+      },
+      "value" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 6, 13, 6, 13 ],
+        "value" : 1
+      }
+    } ]
+  }, {
+    "kind" : "ClassDef",
+    "location" : [ 8, 1, 10, 14 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 8, 7, 8, 7 ],
+      "name" : "B"
+    },
+    "superClass" : {
+      "kind" : "Identifier",
+      "location" : [ 8, 9, 8, 9 ],
+      "name" : "A"
+    },
+    "declarations" : [ {
+      "kind" : "VarDef",
+      "location" : [ 9, 5, 9, 13 ],
+      "var" : {
+        "kind" : "TypedVar",
+        "location" : [ 9, 5, 9, 9 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 9, 5, 9, 5 ],
+          "errorMsg" : "Cannot re-define attribute: a",
+          "name" : "a"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 9, 7, 9, 9 ],
+          "className" : "int"
+        }
+      },
+      "value" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 9, 13, 9, 13 ],
+        "value" : 1
+      }
+    }, {
+      "kind" : "VarDef",
+      "location" : [ 10, 5, 10, 13 ],
+      "var" : {
+        "kind" : "TypedVar",
+        "location" : [ 10, 5, 10, 9 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 10, 5, 10, 5 ],
+          "name" : "b"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 10, 7, 10, 9 ],
+          "className" : "int"
+        }
+      },
+      "value" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 10, 13, 10, 13 ],
+        "value" : 1
+      }
+    } ]
+  } ],
+  "statements" : [ ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 4, 9, 4, 9 ],
+      "message" : "Super-class not defined: B"
+    }, {
+      "kind" : "CompilerError",
+      "location" : [ 4, 7, 4, 7 ],
+      "message" : "Duplicate declaration of identifier in same scope: A"
+    }, {
+      "kind" : "CompilerError",
+      "location" : [ 9, 5, 9, 5 ],
+      "message" : "Cannot re-define attribute: a"
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

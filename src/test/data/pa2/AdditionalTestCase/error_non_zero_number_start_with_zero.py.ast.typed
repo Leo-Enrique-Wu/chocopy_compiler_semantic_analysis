@@ -1,0 +1,32 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 6, 2, 2 ],
+  "declarations" : [ ],
+  "statements" : [ {
+    "kind" : "ExprStmt",
+    "location" : [ 1, 6, 1, 8 ],
+    "expr" : {
+      "kind" : "IntegerLiteral",
+      "location" : [ 1, 6, 1, 8 ],
+      "value" : 123
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 2, 1, 2, 1 ],
+    "expr" : {
+      "kind" : "Identifier",
+      "location" : [ 2, 1, 2, 1 ],
+      "name" : "y"
+    }
+  } ],
+  "errors" : {
+    "errors" : [ {
+      "kind" : "CompilerError",
+      "location" : [ 1, 6, 1, 8 ],
+      "message" : "Parse error near token INTEGER: 123",
+      "syntax" : true
+    } ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

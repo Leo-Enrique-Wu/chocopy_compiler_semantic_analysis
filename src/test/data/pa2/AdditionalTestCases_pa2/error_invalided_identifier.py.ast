@@ -1,0 +1,136 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 8, 18 ],
+  "declarations" : [ {
+    "kind" : "ClassDef",
+    "location" : [ 1, 1, 2, 14 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 7, 1, 7 ],
+      "name" : "A"
+    },
+    "superClass" : {
+      "kind" : "Identifier",
+      "location" : [ 1, 9, 1, 14 ],
+      "name" : "object"
+    },
+    "declarations" : [ {
+      "kind" : "VarDef",
+      "location" : [ 2, 5, 2, 13 ],
+      "var" : {
+        "kind" : "TypedVar",
+        "location" : [ 2, 5, 2, 9 ],
+        "identifier" : {
+          "kind" : "Identifier",
+          "location" : [ 2, 5, 2, 5 ],
+          "name" : "x"
+        },
+        "type" : {
+          "kind" : "ClassType",
+          "location" : [ 2, 7, 2, 9 ],
+          "className" : "int"
+        }
+      },
+      "value" : {
+        "kind" : "IntegerLiteral",
+        "location" : [ 2, 13, 2, 13 ],
+        "value" : 1
+      }
+    } ]
+  }, {
+    "kind" : "FuncDef",
+    "location" : [ 3, 1, 4, 13 ],
+    "name" : {
+      "kind" : "Identifier",
+      "location" : [ 3, 5, 3, 7 ],
+      "name" : "foo"
+    },
+    "params" : [ ],
+    "returnType" : {
+      "kind" : "ClassType",
+      "location" : [ 3, 10, 3, 10 ],
+      "className" : "<None>"
+    },
+    "declarations" : [ ],
+    "statements" : [ {
+      "kind" : "ExprStmt",
+      "location" : [ 4, 5, 4, 12 ],
+      "expr" : {
+        "kind" : "CallExpr",
+        "location" : [ 4, 5, 4, 12 ],
+        "function" : {
+          "kind" : "Identifier",
+          "location" : [ 4, 5, 4, 9 ],
+          "name" : "print"
+        },
+        "args" : [ {
+          "kind" : "IntegerLiteral",
+          "location" : [ 4, 11, 4, 11 ],
+          "value" : 1
+        } ]
+      }
+    } ]
+  } ],
+  "statements" : [ {
+    "kind" : "ExprStmt",
+    "location" : [ 6, 1, 6, 8 ],
+    "expr" : {
+      "kind" : "CallExpr",
+      "location" : [ 6, 1, 6, 8 ],
+      "function" : {
+        "kind" : "Identifier",
+        "location" : [ 6, 1, 6, 5 ],
+        "name" : "print"
+      },
+      "args" : [ {
+        "kind" : "Identifier",
+        "location" : [ 6, 7, 6, 7 ],
+        "name" : "A"
+      } ]
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 7, 1, 7, 12 ],
+    "expr" : {
+      "kind" : "CallExpr",
+      "location" : [ 7, 1, 7, 12 ],
+      "function" : {
+        "kind" : "Identifier",
+        "location" : [ 7, 1, 7, 5 ],
+        "name" : "print"
+      },
+      "args" : [ {
+        "kind" : "CallExpr",
+        "location" : [ 7, 7, 7, 11 ],
+        "function" : {
+          "kind" : "Identifier",
+          "location" : [ 7, 7, 7, 9 ],
+          "name" : "foo"
+        },
+        "args" : [ ]
+      } ]
+    }
+  }, {
+    "kind" : "ExprStmt",
+    "location" : [ 8, 1, 8, 10 ],
+    "expr" : {
+      "kind" : "CallExpr",
+      "location" : [ 8, 1, 8, 10 ],
+      "function" : {
+        "kind" : "Identifier",
+        "location" : [ 8, 1, 8, 5 ],
+        "name" : "print"
+      },
+      "args" : [ {
+        "kind" : "Identifier",
+        "location" : [ 8, 7, 8, 9 ],
+        "name" : "foo"
+      } ]
+    }
+  } ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}

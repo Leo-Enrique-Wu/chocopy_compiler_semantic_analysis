@@ -1,0 +1,19 @@
+{
+  "kind" : "Program",
+  "location" : [ 1, 1, 1, 9 ],
+  "declarations" : [ ],
+  "statements" : [ {
+    "kind" : "ReturnStmt",
+    "location" : [ 1, 1, 1, 8 ],
+    "value" : {
+      "kind" : "IntegerLiteral",
+      "location" : [ 1, 8, 1, 8 ],
+      "value" : 1
+    }
+  } ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  }
+}
